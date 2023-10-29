@@ -55,9 +55,9 @@ def get_stocks_dag():
     list_get_history = []
     BASE_FOLDER = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '../..','datalake/{stage}')) #Para pegar duas pastas acima de onde o arquivo está e criar o caminho onde será colocado o datalake
     for ticker in TICKERS:
-        list_get_history.append(get_history.override(task_id=ticker)(ticker=ticker, dest_path=BASE_FOLDER.format(stage='Bronze')))
+        list_get_history.append(get_history.override(task_id=ticker, pool ="finance_pool")(ticker=ticker, dest_path=BASE_FOLDER.format(stage='Bronze')))
 
-    task_2 = transform_stocks.override(task_id="transform_stocks")(file_path= os.path.join(BASE_FOLDER.format(stage="Bronze"),'stocks'),\
+    task_2 = transform_stocks.override(task_id="transform_stocks", pool = "finance_pool")(file_path= os.path.join(BASE_FOLDER.format(stage="Bronze"),'stocks'),\
                                                          dest_path = BASE_FOLDER.format(stage="Silver"))
 
     # Dependencias

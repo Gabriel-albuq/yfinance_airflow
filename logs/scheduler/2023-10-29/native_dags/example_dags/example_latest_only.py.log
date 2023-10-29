@@ -1,0 +1,88 @@
+[2023-10-29 13:17:43,710] {processor.py:153} INFO - Started process (PID=3460) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:17:43,711] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:17:43,711] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:17:43,720] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:17:43,766] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,766] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only
+[2023-10-29 13:17:43,773] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,773] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only
+[2023-10-29 13:17:43,780] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,780] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only
+[2023-10-29 13:17:43,780] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,780] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:17:43,787] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,787] {dag.py:2398} INFO - Creating ORM DAG for latest_only
+[2023-10-29 13:17:43,799] {logging_mixin.py:115} INFO - [2023-10-29 13:17:43,798] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:17:43.798426+00:00, run_after=2023-10-29T16:17:43.798426+00:00
+[2023-10-29 13:17:43,814] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2023-10-29 13:18:34,031] {processor.py:153} INFO - Started process (PID=3538) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:18:34,032] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:18:34,032] {logging_mixin.py:115} INFO - [2023-10-29 13:18:34,032] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:18:34,037] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:18:34,050] {logging_mixin.py:115} INFO - [2023-10-29 13:18:34,050] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:34,065] {logging_mixin.py:115} INFO - [2023-10-29 13:18:34,065] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:18:34.065652+00:00, run_after=2023-10-29T16:18:34.065652+00:00
+[2023-10-29 13:18:34,077] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-10-29 13:19:06,828] {processor.py:153} INFO - Started process (PID=3605) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:19:06,829] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:19:06,830] {logging_mixin.py:115} INFO - [2023-10-29 13:19:06,830] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:19:06,835] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:19:06,848] {logging_mixin.py:115} INFO - [2023-10-29 13:19:06,848] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:06,863] {logging_mixin.py:115} INFO - [2023-10-29 13:19:06,863] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:19:06.862801+00:00, run_after=2023-10-29T16:19:06.862801+00:00
+[2023-10-29 13:19:06,874] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-10-29 13:19:48,676] {processor.py:153} INFO - Started process (PID=3669) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:19:48,677] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:19:48,677] {logging_mixin.py:115} INFO - [2023-10-29 13:19:48,677] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:19:48,681] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:19:48,695] {logging_mixin.py:115} INFO - [2023-10-29 13:19:48,695] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:48,710] {logging_mixin.py:115} INFO - [2023-10-29 13:19:48,710] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:19:48.710383+00:00, run_after=2023-10-29T16:19:48.710383+00:00
+[2023-10-29 13:19:48,721] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-10-29 13:20:20,144] {processor.py:153} INFO - Started process (PID=3705) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:20:20,145] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:20:20,145] {logging_mixin.py:115} INFO - [2023-10-29 13:20:20,145] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:20:20,149] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:20:20,163] {logging_mixin.py:115} INFO - [2023-10-29 13:20:20,163] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:20,178] {logging_mixin.py:115} INFO - [2023-10-29 13:20:20,178] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:20:20.178177+00:00, run_after=2023-10-29T16:20:20.178177+00:00
+[2023-10-29 13:20:20,189] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2023-10-29 13:20:54,934] {processor.py:153} INFO - Started process (PID=4202) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:20:54,936] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:20:54,937] {logging_mixin.py:115} INFO - [2023-10-29 13:20:54,937] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:20:54,943] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:20:54,964] {logging_mixin.py:115} INFO - [2023-10-29 13:20:54,964] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:54,983] {logging_mixin.py:115} INFO - [2023-10-29 13:20:54,983] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:20:54.983278+00:00, run_after=2023-10-29T16:20:54.983278+00:00
+[2023-10-29 13:20:54,997] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2023-10-29 13:21:28,017] {processor.py:153} INFO - Started process (PID=4380) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:21:28,018] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:21:28,018] {logging_mixin.py:115} INFO - [2023-10-29 13:21:28,018] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:21:28,023] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:21:28,039] {logging_mixin.py:115} INFO - [2023-10-29 13:21:28,039] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:28,054] {logging_mixin.py:115} INFO - [2023-10-29 13:21:28,054] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:21:28.053860+00:00, run_after=2023-10-29T16:21:28.053860+00:00
+[2023-10-29 13:21:28,065] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2023-10-29 13:22:02,810] {processor.py:153} INFO - Started process (PID=4497) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:02,811] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:22:02,812] {logging_mixin.py:115} INFO - [2023-10-29 13:22:02,812] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:02,816] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:02,831] {logging_mixin.py:115} INFO - [2023-10-29 13:22:02,831] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:02,845] {logging_mixin.py:115} INFO - [2023-10-29 13:22:02,845] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:22:02.845164+00:00, run_after=2023-10-29T16:22:02.845164+00:00
+[2023-10-29 13:22:02,856] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2023-10-29 13:22:06,824] {processor.py:153} INFO - Started process (PID=4504) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:06,832] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:22:06,832] {logging_mixin.py:115} INFO - [2023-10-29 13:22:06,832] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:06,837] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:06,875] {logging_mixin.py:115} INFO - [2023-10-29 13:22:06,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:06,896] {logging_mixin.py:115} INFO - [2023-10-29 13:22:06,896] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:22:06.896338+00:00, run_after=2023-10-29T16:22:06.896338+00:00
+[2023-10-29 13:22:06,921] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.100 seconds
+[2023-10-29 13:22:35,943] {processor.py:153} INFO - Started process (PID=4568) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:35,944] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:22:35,944] {logging_mixin.py:115} INFO - [2023-10-29 13:22:35,944] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:35,949] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:35,963] {logging_mixin.py:115} INFO - [2023-10-29 13:22:35,963] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:35,979] {logging_mixin.py:115} INFO - [2023-10-29 13:22:35,979] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:22:35.979037+00:00, run_after=2023-10-29T16:22:35.979037+00:00
+[2023-10-29 13:22:35,991] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2023-10-29 13:22:51,372] {processor.py:153} INFO - Started process (PID=4604) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:51,373] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:22:51,374] {logging_mixin.py:115} INFO - [2023-10-29 13:22:51,374] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:51,378] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:22:51,392] {logging_mixin.py:115} INFO - [2023-10-29 13:22:51,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:51,406] {logging_mixin.py:115} INFO - [2023-10-29 13:22:51,406] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:22:51.406636+00:00, run_after=2023-10-29T16:22:51.406636+00:00
+[2023-10-29 13:22:51,419] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2023-10-29 13:23:09,596] {processor.py:153} INFO - Started process (PID=4704) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:23:09,596] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-29 13:23:09,597] {logging_mixin.py:115} INFO - [2023-10-29 13:23:09,597] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:23:09,601] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-29 13:23:09,615] {logging_mixin.py:115} INFO - [2023-10-29 13:23:09,615] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:23:09,630] {logging_mixin.py:115} INFO - [2023-10-29 13:23:09,630] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-29T12:23:09.630111+00:00, run_after=2023-10-29T16:23:09.630111+00:00
+[2023-10-29 13:23:09,641] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds

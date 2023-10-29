@@ -1,0 +1,74 @@
+[2023-10-29 11:26:54,401] {processor.py:153} INFO - Started process (PID=13220) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 11:26:54,401] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 11:26:54,402] {logging_mixin.py:115} INFO - [2023-10-29 11:26:54,402] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 11:26:54,422] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 11:26:54,448] {logging_mixin.py:115} INFO - [2023-10-29 11:26:54,448] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 11:26:54,469] {logging_mixin.py:115} INFO - [2023-10-29 11:26:54,469] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 11:26:54,483] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.092 seconds
+[2023-10-29 13:18:53,784] {processor.py:153} INFO - Started process (PID=3592) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:18:53,785] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:18:53,785] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,785] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:18:53,794] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:18:53,847] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,847] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_complex
+[2023-10-29 13:18:53,854] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,854] {manager.py:508} INFO - Created Permission View: can read on DAG:example_complex
+[2023-10-29 13:18:53,860] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,859] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_complex
+[2023-10-29 13:18:53,860] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,860] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:53,866] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,866] {dag.py:2398} INFO - Creating ORM DAG for example_complex
+[2023-10-29 13:18:53,872] {logging_mixin.py:115} INFO - [2023-10-29 13:18:53,872] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:18:53,883] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2023-10-29 13:19:27,368] {processor.py:153} INFO - Started process (PID=3627) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:19:27,368] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:19:27,369] {logging_mixin.py:115} INFO - [2023-10-29 13:19:27,369] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:19:27,378] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:19:27,395] {logging_mixin.py:115} INFO - [2023-10-29 13:19:27,395] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:27,411] {logging_mixin.py:115} INFO - [2023-10-29 13:19:27,411] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:19:27,419] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2023-10-29 13:20:06,990] {processor.py:153} INFO - Started process (PID=3691) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:20:06,991] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:20:06,995] {logging_mixin.py:115} INFO - [2023-10-29 13:20:06,994] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:20:07,012] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:20:07,058] {logging_mixin.py:115} INFO - [2023-10-29 13:20:07,058] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:07,095] {logging_mixin.py:115} INFO - [2023-10-29 13:20:07,095] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:20:07,122] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.140 seconds
+[2023-10-29 13:20:41,851] {processor.py:153} INFO - Started process (PID=3765) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:20:41,852] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:20:41,852] {logging_mixin.py:115} INFO - [2023-10-29 13:20:41,852] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:20:41,864] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:20:41,881] {logging_mixin.py:115} INFO - [2023-10-29 13:20:41,881] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:41,901] {logging_mixin.py:115} INFO - [2023-10-29 13:20:41,901] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:20:41,912] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2023-10-29 13:21:16,604] {processor.py:153} INFO - Started process (PID=4321) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:21:16,605] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:21:16,605] {logging_mixin.py:115} INFO - [2023-10-29 13:21:16,605] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:21:16,614] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:21:16,634] {logging_mixin.py:115} INFO - [2023-10-29 13:21:16,634] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:16,658] {logging_mixin.py:115} INFO - [2023-10-29 13:21:16,658] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:21:16,671] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2023-10-29 13:21:50,419] {processor.py:153} INFO - Started process (PID=4473) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:21:50,420] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:21:50,420] {logging_mixin.py:115} INFO - [2023-10-29 13:21:50,420] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:21:50,430] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:21:50,446] {logging_mixin.py:115} INFO - [2023-10-29 13:21:50,446] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:50,462] {logging_mixin.py:115} INFO - [2023-10-29 13:21:50,462] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:21:50,471] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-10-29 13:22:23,401] {processor.py:153} INFO - Started process (PID=4548) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:23,402] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:22:23,403] {logging_mixin.py:115} INFO - [2023-10-29 13:22:23,403] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:23,417] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:23,434] {logging_mixin.py:115} INFO - [2023-10-29 13:22:23,433] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:23,450] {logging_mixin.py:115} INFO - [2023-10-29 13:22:23,450] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:22:23,458] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2023-10-29 13:22:25,109] {processor.py:153} INFO - Started process (PID=4551) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:25,110] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:22:25,110] {logging_mixin.py:115} INFO - [2023-10-29 13:22:25,110] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:25,120] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:25,136] {logging_mixin.py:115} INFO - [2023-10-29 13:22:25,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:25,152] {logging_mixin.py:115} INFO - [2023-10-29 13:22:25,152] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:22:25,162] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2023-10-29 13:22:58,194] {processor.py:153} INFO - Started process (PID=4640) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:58,194] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-29 13:22:58,195] {logging_mixin.py:115} INFO - [2023-10-29 13:22:58,195] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:58,205] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-29 13:22:58,223] {logging_mixin.py:115} INFO - [2023-10-29 13:22:58,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:58,241] {logging_mixin.py:115} INFO - [2023-10-29 13:22:58,241] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-29 13:22:58,252] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds

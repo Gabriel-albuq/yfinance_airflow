@@ -1,0 +1,167 @@
+[2023-10-29 11:27:00,706] {processor.py:153} INFO - Started process (PID=13272) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 11:27:00,707] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 11:27:00,707] {logging_mixin.py:115} INFO - [2023-10-29 11:27:00,707] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 11:27:00,724] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 11:27:02,011] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: serialized_dag
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 155, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 660, in process_file
+    dagbag.sync_to_db()
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 615, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 627, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 598, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/models/serialized_dag.py", line 138, in write_dag
+    session.query(literal(True))
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 2734, in first
+    return self.limit(1)._iter().first()
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 2818, in _iter
+    result = self.session.execute(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1670, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1520, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 313, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1389, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1748, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1929, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1705, in _execute_context
+    self.dialect.do_execute(
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 716, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: serialized_dag
+[SQL: SELECT ? AS anon_1 
+FROM serialized_dag 
+WHERE serialized_dag.dag_id = ? AND serialized_dag.last_updated > ?
+ LIMIT ? OFFSET ?]
+[parameters: (1, 'tutorial_taskflow_api_etl', '2023-10-29 14:26:32.010738', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2023-10-29 13:17:36,486] {processor.py:153} INFO - Started process (PID=3427) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:17:36,487] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:17:36,488] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,488] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:17:36,505] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:17:36,539] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,539] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api_etl
+[2023-10-29 13:17:36,546] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,546] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api_etl
+[2023-10-29 13:17:36,552] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,552] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api_etl
+[2023-10-29 13:17:36,552] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,552] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:17:36,559] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,559] {dag.py:2398} INFO - Creating ORM DAG for tutorial_taskflow_api_etl
+[2023-10-29 13:17:36,568] {logging_mixin.py:115} INFO - [2023-10-29 13:17:36,568] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:17:36,578] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.096 seconds
+[2023-10-29 13:18:26,785] {processor.py:153} INFO - Started process (PID=3522) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:18:26,786] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:18:26,787] {logging_mixin.py:115} INFO - [2023-10-29 13:18:26,787] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:18:26,802] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:18:26,844] {logging_mixin.py:115} INFO - [2023-10-29 13:18:26,844] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:26,856] {logging_mixin.py:115} INFO - [2023-10-29 13:18:26,856] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:18:26,867] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.085 seconds
+[2023-10-29 13:19:00,042] {processor.py:153} INFO - Started process (PID=3598) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:00,042] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:19:00,043] {logging_mixin.py:115} INFO - [2023-10-29 13:19:00,043] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:00,058] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:00,099] {logging_mixin.py:115} INFO - [2023-10-29 13:19:00,099] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:00,112] {logging_mixin.py:115} INFO - [2023-10-29 13:19:00,112] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:19:00,123] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.084 seconds
+[2023-10-29 13:19:32,521] {processor.py:153} INFO - Started process (PID=3633) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:32,521] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:19:32,522] {logging_mixin.py:115} INFO - [2023-10-29 13:19:32,522] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:32,537] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:32,575] {logging_mixin.py:115} INFO - [2023-10-29 13:19:32,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:32,588] {logging_mixin.py:115} INFO - [2023-10-29 13:19:32,588] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:19:32,600] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.083 seconds
+[2023-10-29 13:19:41,465] {processor.py:153} INFO - Started process (PID=3648) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:41,466] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:19:41,467] {logging_mixin.py:115} INFO - [2023-10-29 13:19:41,467] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:41,491] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:19:41,503] {logging_mixin.py:115} INFO - [2023-10-29 13:19:41,503] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:41,524] {logging_mixin.py:115} INFO - [2023-10-29 13:19:41,524] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:19:41,538] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.077 seconds
+[2023-10-29 13:20:13,269] {processor.py:153} INFO - Started process (PID=3698) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:20:13,270] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:20:13,270] {logging_mixin.py:115} INFO - [2023-10-29 13:20:13,270] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:20:13,284] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:20:13,321] {logging_mixin.py:115} INFO - [2023-10-29 13:20:13,321] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:13,333] {logging_mixin.py:115} INFO - [2023-10-29 13:20:13,333] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:20:13,342] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.075 seconds
+[2023-10-29 13:20:48,183] {processor.py:153} INFO - Started process (PID=4040) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:20:48,187] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:20:48,189] {logging_mixin.py:115} INFO - [2023-10-29 13:20:48,189] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:20:48,262] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:20:48,414] {logging_mixin.py:115} INFO - [2023-10-29 13:20:48,414] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:48,456] {logging_mixin.py:115} INFO - [2023-10-29 13:20:48,456] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:20:48,477] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.319 seconds
+[2023-10-29 13:21:21,343] {processor.py:153} INFO - Started process (PID=4349) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:21,344] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:21:21,344] {logging_mixin.py:115} INFO - [2023-10-29 13:21:21,344] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:21,359] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:21,372] {logging_mixin.py:115} INFO - [2023-10-29 13:21:21,372] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:21,388] {logging_mixin.py:115} INFO - [2023-10-29 13:21:21,388] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:21:21,398] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.058 seconds
+[2023-10-29 13:21:53,717] {processor.py:153} INFO - Started process (PID=4476) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:53,719] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:21:53,719] {logging_mixin.py:115} INFO - [2023-10-29 13:21:53,719] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:53,733] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:53,770] {logging_mixin.py:115} INFO - [2023-10-29 13:21:53,770] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:53,782] {logging_mixin.py:115} INFO - [2023-10-29 13:21:53,782] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:21:53,795] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.080 seconds
+[2023-10-29 13:21:59,603] {processor.py:153} INFO - Started process (PID=4490) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:59,604] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:21:59,604] {logging_mixin.py:115} INFO - [2023-10-29 13:21:59,604] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:59,618] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:21:59,626] {logging_mixin.py:115} INFO - [2023-10-29 13:21:59,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:59,643] {logging_mixin.py:115} INFO - [2023-10-29 13:21:59,643] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:21:59,652] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.052 seconds
+[2023-10-29 13:22:26,785] {processor.py:153} INFO - Started process (PID=4554) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:22:26,785] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:22:26,785] {logging_mixin.py:115} INFO - [2023-10-29 13:22:26,785] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:22:26,800] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:22:26,836] {logging_mixin.py:115} INFO - [2023-10-29 13:22:26,836] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:26,848] {logging_mixin.py:115} INFO - [2023-10-29 13:22:26,848] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:22:26,857] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.076 seconds
+[2023-10-29 13:22:44,138] {processor.py:153} INFO - Started process (PID=4586) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:22:44,139] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:22:44,139] {logging_mixin.py:115} INFO - [2023-10-29 13:22:44,139] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:22:44,153] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:22:44,161] {logging_mixin.py:115} INFO - [2023-10-29 13:22:44,160] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:44,176] {logging_mixin.py:115} INFO - [2023-10-29 13:22:44,176] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:22:44,186] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.050 seconds
+[2023-10-29 13:23:00,461] {processor.py:153} INFO - Started process (PID=4643) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:23:00,462] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2023-10-29 13:23:00,463] {logging_mixin.py:115} INFO - [2023-10-29 13:23:00,463] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:23:00,478] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2023-10-29 13:23:00,493] {logging_mixin.py:115} INFO - [2023-10-29 13:23:00,493] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:23:00,510] {logging_mixin.py:115} INFO - [2023-10-29 13:23:00,510] {dag.py:2927} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None, run_after=None
+[2023-10-29 13:23:00,520] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.062 seconds

@@ -1,0 +1,88 @@
+[2023-10-29 11:26:40,977] {processor.py:153} INFO - Started process (PID=13138) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 11:26:40,978] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 11:26:40,979] {logging_mixin.py:115} INFO - [2023-10-29 11:26:40,978] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 11:26:40,984] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 11:26:40,999] {logging_mixin.py:115} INFO - [2023-10-29 11:26:40,999] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 11:26:41,015] {logging_mixin.py:115} INFO - [2023-10-29 11:26:41,015] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T14:26:41.015427+00:00, run_after=2023-10-29T14:26:41.015427+00:00
+[2023-10-29 11:26:41,029] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2023-10-29 13:17:50,601] {processor.py:153} INFO - Started process (PID=3483) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:17:50,602] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:17:50,603] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,602] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:17:50,609] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:17:50,645] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,645] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial
+[2023-10-29 13:17:50,651] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,651] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial
+[2023-10-29 13:17:50,657] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,656] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial
+[2023-10-29 13:17:50,657] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,657] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:17:50,664] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,664] {dag.py:2398} INFO - Creating ORM DAG for tutorial
+[2023-10-29 13:17:50,670] {logging_mixin.py:115} INFO - [2023-10-29 13:17:50,670] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:17:50.670206+00:00, run_after=2023-10-29T16:17:50.670206+00:00
+[2023-10-29 13:17:50,685] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2023-10-29 13:18:40,908] {processor.py:153} INFO - Started process (PID=3578) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:18:40,909] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:18:40,910] {logging_mixin.py:115} INFO - [2023-10-29 13:18:40,910] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:18:40,916] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:18:40,935] {logging_mixin.py:115} INFO - [2023-10-29 13:18:40,934] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:40,953] {logging_mixin.py:115} INFO - [2023-10-29 13:18:40,952] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:18:40.952530+00:00, run_after=2023-10-29T16:18:40.952530+00:00
+[2023-10-29 13:18:40,966] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-10-29 13:19:14,897] {processor.py:153} INFO - Started process (PID=3614) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:19:14,898] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:19:14,899] {logging_mixin.py:115} INFO - [2023-10-29 13:19:14,898] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:19:14,904] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:19:14,919] {logging_mixin.py:115} INFO - [2023-10-29 13:19:14,918] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:14,935] {logging_mixin.py:115} INFO - [2023-10-29 13:19:14,934] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:19:14.934692+00:00, run_after=2023-10-29T16:19:14.934692+00:00
+[2023-10-29 13:19:14,949] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2023-10-29 13:19:54,422] {processor.py:153} INFO - Started process (PID=3677) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:19:54,423] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:19:54,424] {logging_mixin.py:115} INFO - [2023-10-29 13:19:54,423] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:19:54,429] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:19:54,444] {logging_mixin.py:115} INFO - [2023-10-29 13:19:54,444] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:54,460] {logging_mixin.py:115} INFO - [2023-10-29 13:19:54,460] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:19:54.459744+00:00, run_after=2023-10-29T16:19:54.459744+00:00
+[2023-10-29 13:19:54,473] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2023-10-29 13:20:28,705] {processor.py:153} INFO - Started process (PID=3715) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:20:28,706] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:20:28,706] {logging_mixin.py:115} INFO - [2023-10-29 13:20:28,706] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:20:28,712] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:20:28,727] {logging_mixin.py:115} INFO - [2023-10-29 13:20:28,727] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:28,743] {logging_mixin.py:115} INFO - [2023-10-29 13:20:28,743] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:20:28.742740+00:00, run_after=2023-10-29T16:20:28.742740+00:00
+[2023-10-29 13:20:28,755] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2023-10-29 13:21:03,561] {processor.py:153} INFO - Started process (PID=4234) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:21:03,562] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:21:03,563] {logging_mixin.py:115} INFO - [2023-10-29 13:21:03,563] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:21:03,572] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:21:03,588] {logging_mixin.py:115} INFO - [2023-10-29 13:21:03,588] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:03,607] {logging_mixin.py:115} INFO - [2023-10-29 13:21:03,607] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:21:03.607105+00:00, run_after=2023-10-29T16:21:03.607105+00:00
+[2023-10-29 13:21:03,618] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2023-10-29 13:21:36,558] {processor.py:153} INFO - Started process (PID=4434) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:21:36,559] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:21:36,559] {logging_mixin.py:115} INFO - [2023-10-29 13:21:36,559] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:21:36,565] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:21:36,578] {logging_mixin.py:115} INFO - [2023-10-29 13:21:36,578] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:36,593] {logging_mixin.py:115} INFO - [2023-10-29 13:21:36,593] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:21:36.593035+00:00, run_after=2023-10-29T16:21:36.593035+00:00
+[2023-10-29 13:21:36,604] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2023-10-29 13:22:10,548] {processor.py:153} INFO - Started process (PID=4514) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:10,549] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:22:10,550] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,549] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:10,555] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:10,570] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,570] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:10,590] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,590] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:22:10.590514+00:00, run_after=2023-10-29T16:22:10.590514+00:00
+[2023-10-29 13:22:10,604] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2023-10-29 13:22:12,571] {processor.py:153} INFO - Started process (PID=4524) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:12,571] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:22:12,572] {logging_mixin.py:115} INFO - [2023-10-29 13:22:12,572] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:12,577] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:12,591] {logging_mixin.py:115} INFO - [2023-10-29 13:22:12,591] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:12,610] {logging_mixin.py:115} INFO - [2023-10-29 13:22:12,610] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:22:12.609694+00:00, run_after=2023-10-29T16:22:12.609694+00:00
+[2023-10-29 13:22:12,624] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2023-10-29 13:22:43,200] {processor.py:153} INFO - Started process (PID=4584) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:43,201] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:22:43,201] {logging_mixin.py:115} INFO - [2023-10-29 13:22:43,201] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:43,206] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:22:43,219] {logging_mixin.py:115} INFO - [2023-10-29 13:22:43,219] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:43,234] {logging_mixin.py:115} INFO - [2023-10-29 13:22:43,234] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:22:43.233987+00:00, run_after=2023-10-29T16:22:43.233987+00:00
+[2023-10-29 13:22:43,245] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2023-10-29 13:23:16,993] {processor.py:153} INFO - Started process (PID=4737) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:23:17,000] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29 13:23:17,001] {logging_mixin.py:115} INFO - [2023-10-29 13:23:17,001] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:23:17,007] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29 13:23:17,026] {logging_mixin.py:115} INFO - [2023-10-29 13:23:17,026] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:23:17,044] {logging_mixin.py:115} INFO - [2023-10-29 13:23:17,044] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2023-10-28T16:23:17.044358+00:00, run_after=2023-10-29T16:23:17.044358+00:00
+[2023-10-29 13:23:17,064] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds

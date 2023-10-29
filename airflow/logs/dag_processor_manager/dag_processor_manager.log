@@ -4785,3 +4785,2046 @@ File Path                                                            PID    Runt
 -------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-27T21:49:22
 ================================================================================
+[2023-10-29 11:27:59,261] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 11:27:59,264] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 11:27:59,265] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 11:27:59,265] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:27:59,273] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:27:59,315] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py  13524  0.01s             0           0
+================================================================================
+[2023-10-29 11:28:29,374] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.80s           2023-10-29T14:28:00
+================================================================================
+[2023-10-29 11:28:59,452] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.54s           2023-10-29T14:28:30
+================================================================================
+[2023-10-29 11:29:29,862] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T14:29:01
+================================================================================
+[2023-10-29 11:30:00,421] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  3.33s           2023-10-29T14:29:34
+================================================================================
+[2023-10-29 11:30:31,043] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.30s           2023-10-29T14:30:06
+================================================================================
+[2023-10-29 11:31:01,341] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T14:30:36
+================================================================================
+[2023-10-29 11:31:31,357] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T14:31:07
+================================================================================
+[2023-10-29 11:32:01,424] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T14:31:37
+================================================================================
+[2023-10-29 11:32:31,918] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T14:32:08
+================================================================================
+[2023-10-29 11:32:59,460] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:32:59,465] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:33:02,500] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.38s           2023-10-29T14:32:38
+================================================================================
+[2023-10-29 11:33:32,553] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.52s           2023-10-29T14:33:09
+================================================================================
+[2023-10-29 11:34:03,309] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  6.41s           2023-10-29T14:33:46
+================================================================================
+[2023-10-29 11:34:33,458] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  3.19s           2023-10-29T14:34:19
+================================================================================
+[2023-10-29 11:35:03,576] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.91s           2023-10-29T14:34:50
+================================================================================
+[2023-10-29 11:35:33,757] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.19s           2023-10-29T14:35:21
+================================================================================
+[2023-10-29 11:36:04,004] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.43s           2023-10-29T14:35:53
+================================================================================
+[2023-10-29 11:36:34,452] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.27s           2023-10-29T14:36:24
+================================================================================
+[2023-10-29 11:37:04,788] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.29s           2023-10-29T14:36:56
+================================================================================
+[2023-10-29 11:37:35,161] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.25s           2023-10-29T14:37:27
+================================================================================
+[2023-10-29 11:37:59,512] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:37:59,517] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:38:05,562] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.32s           2023-10-29T14:37:58
+================================================================================
+[2023-10-29 11:38:35,669] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.77s           2023-10-29T14:38:29
+================================================================================
+[2023-10-29 11:39:05,774] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.98s           2023-10-29T14:39:00
+================================================================================
+[2023-10-29 11:39:35,904] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.04s           2023-10-29T14:39:31
+================================================================================
+[2023-10-29 11:40:06,029] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.59s           2023-10-29T14:40:02
+================================================================================
+[2023-10-29 11:40:36,678] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.29s           2023-10-29T14:40:33
+================================================================================
+[2023-10-29 11:41:07,132] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.45s           2023-10-29T14:41:04
+================================================================================
+[2023-10-29 11:41:37,661] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.47s           2023-10-29T14:41:35
+================================================================================
+[2023-10-29 11:42:07,745] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.60s           2023-10-29T14:42:05
+================================================================================
+[2023-10-29 11:42:37,842] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T14:42:36
+================================================================================
+[2023-10-29 11:42:59,897] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:42:59,898] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:43:08,238] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.36s           2023-10-29T14:43:06
+================================================================================
+[2023-10-29 11:43:38,654] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T14:43:36
+================================================================================
+[2023-10-29 11:44:09,048] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T14:44:07
+================================================================================
+[2023-10-29 11:44:39,071] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.49s           2023-10-29T14:44:38
+================================================================================
+[2023-10-29 11:45:09,155] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.36s           2023-10-29T14:45:08
+================================================================================
+[2023-10-29 11:45:39,596] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T14:45:39
+================================================================================
+[2023-10-29 11:46:10,127] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.36s           2023-10-29T14:46:09
+================================================================================
+[2023-10-29 11:46:40,541] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.53s           2023-10-29T14:46:40
+================================================================================
+[2023-10-29 11:47:10,610] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py  23470  0.49s             1           0  0.53s           2023-10-29T14:46:40
+================================================================================
+[2023-10-29 11:47:40,718] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py  23507  0.00s             1           0  0.50s           2023-10-29T14:47:10
+================================================================================
+[2023-10-29 11:48:00,110] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:48:00,112] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:48:10,796] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T14:47:41
+================================================================================
+[2023-10-29 11:48:41,241] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.37s           2023-10-29T14:48:11
+================================================================================
+[2023-10-29 11:49:11,670] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.50s           2023-10-29T14:48:42
+================================================================================
+[2023-10-29 11:49:40,035] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 11:50:37,788] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 11:50:37,789] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 11:50:37,789] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 11:50:37,789] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:50:37,791] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 11:50:37,897] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py  23956  0.03s             0           0
+================================================================================
+[2023-10-29 11:51:07,977] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.53s           2023-10-29T14:50:38
+================================================================================
+[2023-10-29 11:51:12,334] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 12:39:24,286] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 12:39:24,286] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 12:39:24,287] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 12:39:24,287] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 12:39:24,290] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 12:39:24,336] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py   2659  0.01s             0           0
+================================================================================
+[2023-10-29 12:39:54,408] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.01s           2023-10-29T15:39:25
+================================================================================
+[2023-10-29 12:39:55,082] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 12:41:17,553] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 12:41:17,553] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 12:41:17,553] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 12:41:17,553] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 12:41:17,554] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 12:41:17,591] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py   3138  0.01s             0           0
+================================================================================
+[2023-10-29 12:41:47,667] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T15:41:17
+================================================================================
+[2023-10-29 12:42:18,021] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.44s           2023-10-29T15:41:48
+================================================================================
+[2023-10-29 12:42:48,103] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.63s           2023-10-29T15:42:19
+================================================================================
+[2023-10-29 12:43:18,200] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.38s           2023-10-29T15:42:49
+================================================================================
+[2023-10-29 12:43:48,643] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.38s           2023-10-29T15:43:19
+================================================================================
+[2023-10-29 12:44:19,081] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.41s           2023-10-29T15:43:50
+================================================================================
+[2023-10-29 12:44:49,579] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.49s           2023-10-29T15:44:20
+================================================================================
+[2023-10-29 12:45:19,651] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.53s           2023-10-29T15:44:51
+================================================================================
+[2023-10-29 12:45:49,734] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T15:45:22
+================================================================================
+[2023-10-29 12:46:17,781] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 12:46:17,783] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 12:46:19,795] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.55s           2023-10-29T15:45:52
+================================================================================
+[2023-10-29 12:46:50,353] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.52s           2023-10-29T15:46:23
+================================================================================
+[2023-10-29 12:47:20,467] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.44s           2023-10-29T15:46:53
+================================================================================
+[2023-10-29 12:47:50,955] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.42s           2023-10-29T15:47:24
+================================================================================
+[2023-10-29 12:48:20,959] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.54s           2023-10-29T15:47:54
+================================================================================
+[2023-10-29 12:48:22,152] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 13:14:32,665] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 13:14:32,667] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 13:14:32,667] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 13:14:32,667] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:14:32,670] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:14:32,804] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py   2624  0.05s             0           0
+================================================================================
+[2023-10-29 13:15:02,852] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.70s           2023-10-29T16:14:34
+================================================================================
+[2023-10-29 13:15:28,610] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 13:15:58,771] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 13:15:58,771] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 13:15:58,771] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 13:15:58,771] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:15:58,772] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:15:58,807] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py   3249  0.01s             0           0
+================================================================================
+[2023-10-29 13:16:09,264] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 13:24:51,063] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 13:24:51,063] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 13:24:51,063] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 13:24:51,063] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:24:51,064] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:24:51,113] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py   5106  0.01s             0           0
+================================================================================
+[2023-10-29 13:24:58,665] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-29 13:25:25,109] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-10-29 13:25:25,109] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-10-29 13:25:25,109] {manager.py:482} INFO - Checking for new files in /home/gabriel/Documents/project_finance/airflow/dags every 300 seconds
+[2023-10-29 13:25:25,109] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:25:25,110] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:25:25,148] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py   5241  0.01s             0           0
+================================================================================
+[2023-10-29 13:25:55,207] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T16:25:25
+================================================================================
+[2023-10-29 13:26:25,577] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T16:25:55
+================================================================================
+[2023-10-29 13:26:55,952] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:26:26
+================================================================================
+[2023-10-29 13:27:26,339] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:26:56
+================================================================================
+[2023-10-29 13:27:56,727] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.37s           2023-10-29T16:27:27
+================================================================================
+[2023-10-29 13:28:27,159] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.40s           2023-10-29T16:27:57
+================================================================================
+[2023-10-29 13:28:57,218] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.73s           2023-10-29T16:28:28
+================================================================================
+[2023-10-29 13:29:27,389] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T16:28:58
+================================================================================
+[2023-10-29 13:29:57,454] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.81s           2023-10-29T16:29:29
+================================================================================
+[2023-10-29 13:30:25,214] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:30:25,216] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:30:27,727] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T16:30:00
+================================================================================
+[2023-10-29 13:30:57,731] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.45s           2023-10-29T16:30:30
+================================================================================
+[2023-10-29 13:31:27,797] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.40s           2023-10-29T16:31:01
+================================================================================
+[2023-10-29 13:31:58,249] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:31:31
+================================================================================
+[2023-10-29 13:32:28,641] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:32:01
+================================================================================
+[2023-10-29 13:32:59,020] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:32:32
+================================================================================
+[2023-10-29 13:33:29,491] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.24s           2023-10-29T16:33:03
+================================================================================
+[2023-10-29 13:33:59,574] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.91s           2023-10-29T16:33:34
+================================================================================
+[2023-10-29 13:34:29,764] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T16:34:05
+================================================================================
+[2023-10-29 13:35:00,273] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.37s           2023-10-29T16:34:35
+================================================================================
+[2023-10-29 13:35:25,694] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:35:25,700] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:35:30,730] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.50s           2023-10-29T16:35:06
+================================================================================
+[2023-10-29 13:36:00,807] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T16:35:36
+================================================================================
+[2023-10-29 13:36:30,902] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.64s           2023-10-29T16:36:07
+================================================================================
+[2023-10-29 13:37:01,584] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:36:37
+================================================================================
+[2023-10-29 13:37:31,957] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:37:08
+================================================================================
+[2023-10-29 13:38:02,372] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:37:38
+================================================================================
+[2023-10-29 13:38:32,784] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:38:09
+================================================================================
+[2023-10-29 13:39:03,185] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T16:38:39
+================================================================================
+[2023-10-29 13:39:33,276] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.52s           2023-10-29T16:39:10
+================================================================================
+[2023-10-29 13:40:03,343] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:39:40
+================================================================================
+[2023-10-29 13:40:25,732] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:40:25,733] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:40:33,760] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.36s           2023-10-29T16:40:11
+================================================================================
+[2023-10-29 13:41:04,158] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:40:41
+================================================================================
+[2023-10-29 13:41:34,545] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:41:11
+================================================================================
+[2023-10-29 13:42:04,943] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:41:42
+================================================================================
+[2023-10-29 13:42:35,333] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:42:12
+================================================================================
+[2023-10-29 13:43:05,725] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:42:43
+================================================================================
+[2023-10-29 13:43:36,134] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:43:13
+================================================================================
+[2023-10-29 13:44:06,525] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:43:43
+================================================================================
+[2023-10-29 13:44:36,916] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:44:14
+================================================================================
+[2023-10-29 13:45:07,279] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:44:44
+================================================================================
+[2023-10-29 13:45:25,966] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:45:25,967] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:45:37,659] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:45:14
+================================================================================
+[2023-10-29 13:46:08,064] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:45:45
+================================================================================
+[2023-10-29 13:46:38,458] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:46:15
+================================================================================
+[2023-10-29 13:47:08,827] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.42s           2023-10-29T16:46:46
+================================================================================
+[2023-10-29 13:47:39,300] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:47:16
+================================================================================
+[2023-10-29 13:48:09,680] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T16:47:47
+================================================================================
+[2023-10-29 13:48:40,173] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:48:17
+================================================================================
+[2023-10-29 13:49:10,544] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:48:47
+================================================================================
+[2023-10-29 13:49:40,926] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:49:18
+================================================================================
+[2023-10-29 13:50:11,318] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:49:48
+================================================================================
+[2023-10-29 13:50:25,971] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:50:25,972] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:50:41,677] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:50:18
+================================================================================
+[2023-10-29 13:51:12,071] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:50:49
+================================================================================
+[2023-10-29 13:51:42,441] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T16:51:19
+================================================================================
+[2023-10-29 13:52:12,816] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:51:50
+================================================================================
+[2023-10-29 13:52:43,194] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:52:20
+================================================================================
+[2023-10-29 13:53:13,581] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:52:50
+================================================================================
+[2023-10-29 13:53:43,957] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.44s           2023-10-29T16:53:21
+================================================================================
+[2023-10-29 13:54:14,457] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:53:51
+================================================================================
+[2023-10-29 13:54:44,843] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:54:22
+================================================================================
+[2023-10-29 13:55:15,228] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:54:52
+================================================================================
+[2023-10-29 13:55:26,583] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:55:26,585] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 13:55:45,646] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:55:22
+================================================================================
+[2023-10-29 13:56:16,014] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:55:53
+================================================================================
+[2023-10-29 13:56:46,430] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:56:23
+================================================================================
+[2023-10-29 13:57:16,816] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:56:54
+================================================================================
+[2023-10-29 13:57:47,208] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:57:24
+================================================================================
+[2023-10-29 13:58:17,612] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T16:57:54
+================================================================================
+[2023-10-29 13:58:47,999] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T16:58:25
+================================================================================
+[2023-10-29 13:59:18,391] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.49s           2023-10-29T16:58:55
+================================================================================
+[2023-10-29 13:59:48,930] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T16:59:26
+================================================================================
+[2023-10-29 14:00:19,322] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T16:59:56
+================================================================================
+[2023-10-29 14:00:26,653] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:00:26,655] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:00:49,715] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:00:26
+================================================================================
+[2023-10-29 14:01:20,088] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:00:57
+================================================================================
+[2023-10-29 14:01:50,468] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T17:01:27
+================================================================================
+[2023-10-29 14:02:20,870] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:01:58
+================================================================================
+[2023-10-29 14:02:51,252] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:02:28
+================================================================================
+[2023-10-29 14:03:21,636] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:02:58
+================================================================================
+[2023-10-29 14:03:52,024] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:03:29
+================================================================================
+[2023-10-29 14:04:22,394] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:03:59
+================================================================================
+[2023-10-29 14:04:52,777] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.35s           2023-10-29T17:04:30
+================================================================================
+[2023-10-29 14:05:23,175] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T17:05:00
+================================================================================
+[2023-10-29 14:05:27,184] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:05:27,188] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:05:53,589] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T17:05:31
+================================================================================
+[2023-10-29 14:06:24,139] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:06:01
+================================================================================
+[2023-10-29 14:06:54,523] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:06:31
+================================================================================
+[2023-10-29 14:07:24,887] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:07:02
+================================================================================
+[2023-10-29 14:07:55,272] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:07:32
+================================================================================
+[2023-10-29 14:08:25,641] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:08:02
+================================================================================
+[2023-10-29 14:08:56,013] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:08:33
+================================================================================
+[2023-10-29 14:09:26,398] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:09:03
+================================================================================
+[2023-10-29 14:09:56,768] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:09:34
+================================================================================
+[2023-10-29 14:10:27,138] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:10:04
+================================================================================
+[2023-10-29 14:10:27,458] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:10:27,459] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:10:57,529] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:10:34
+================================================================================
+[2023-10-29 14:11:27,904] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.43s           2023-10-29T17:11:05
+================================================================================
+[2023-10-29 14:11:58,385] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:11:35
+================================================================================
+[2023-10-29 14:12:28,768] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:12:06
+================================================================================
+[2023-10-29 14:12:59,154] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:12:36
+================================================================================
+[2023-10-29 14:13:29,526] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:13:06
+================================================================================
+[2023-10-29 14:13:59,911] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:13:37
+================================================================================
+[2023-10-29 14:14:30,312] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:14:07
+================================================================================
+[2023-10-29 14:15:00,693] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:14:37
+================================================================================
+[2023-10-29 14:15:28,060] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:15:28,062] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:15:31,076] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:15:08
+================================================================================
+[2023-10-29 14:16:01,446] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:15:38
+================================================================================
+[2023-10-29 14:16:31,831] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.32s           2023-10-29T17:16:09
+================================================================================
+[2023-10-29 14:17:02,202] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:16:39
+================================================================================
+[2023-10-29 14:17:32,630] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:17:09
+================================================================================
+[2023-10-29 14:18:02,634] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.54s           2023-10-29T17:17:40
+================================================================================
+[2023-10-29 14:18:33,160] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.54s           2023-10-29T17:18:11
+================================================================================
+[2023-10-29 14:19:03,316] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T17:18:41
+================================================================================
+[2023-10-29 14:19:33,397] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.55s           2023-10-29T17:19:12
+================================================================================
+[2023-10-29 14:20:03,497] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.37s           2023-10-29T17:19:42
+================================================================================
+[2023-10-29 14:20:28,328] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:20:28,330] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:20:33,924] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.42s           2023-10-29T17:20:13
+================================================================================
+[2023-10-29 14:21:03,926] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.48s           2023-10-29T17:20:43
+================================================================================
+[2023-10-29 14:21:33,998] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.41s           2023-10-29T17:21:14
+================================================================================
+[2023-10-29 14:22:04,469] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.49s           2023-10-29T17:21:44
+================================================================================
+[2023-10-29 14:22:34,561] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.56s           2023-10-29T17:22:15
+================================================================================
+[2023-10-29 14:23:04,664] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T17:22:46
+================================================================================
+[2023-10-29 14:23:34,668] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.49s           2023-10-29T17:23:16
+================================================================================
+[2023-10-29 14:24:05,243] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.59s           2023-10-29T17:23:47
+================================================================================
+[2023-10-29 14:24:35,410] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.60s           2023-10-29T17:24:17
+================================================================================
+[2023-10-29 14:25:05,483] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.40s           2023-10-29T17:24:48
+================================================================================
+[2023-10-29 14:25:28,544] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:25:28,545] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:25:35,573] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.55s           2023-10-29T17:25:19
+================================================================================
+[2023-10-29 14:26:05,617] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.45s           2023-10-29T17:25:49
+================================================================================
+[2023-10-29 14:26:35,690] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.40s           2023-10-29T17:26:20
+================================================================================
+[2023-10-29 14:27:05,696] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.55s           2023-10-29T17:26:50
+================================================================================
+[2023-10-29 14:27:35,770] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.45s           2023-10-29T17:27:21
+================================================================================
+[2023-10-29 14:28:06,270] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T17:27:51
+================================================================================
+[2023-10-29 14:28:36,282] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.49s           2023-10-29T17:28:22
+================================================================================
+[2023-10-29 14:29:06,352] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.41s           2023-10-29T17:28:52
+================================================================================
+[2023-10-29 14:29:36,852] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.38s           2023-10-29T17:29:23
+================================================================================
+[2023-10-29 14:30:07,262] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.58s           2023-10-29T17:29:53
+================================================================================
+[2023-10-29 14:30:28,887] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:30:28,889] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:30:37,310] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.41s           2023-10-29T17:30:24
+================================================================================
+[2023-10-29 14:31:07,385] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.33s           2023-10-29T17:30:54
+================================================================================
+[2023-10-29 14:31:37,776] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.50s           2023-10-29T17:31:25
+================================================================================
+[2023-10-29 14:32:08,396] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.34s           2023-10-29T17:31:55
+================================================================================
+[2023-10-29 14:32:38,755] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.41s           2023-10-29T17:32:26
+================================================================================
+[2023-10-29 14:33:09,214] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.53s           2023-10-29T17:32:56
+================================================================================
+[2023-10-29 14:33:39,303] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.57s           2023-10-29T17:33:27
+================================================================================
+[2023-10-29 14:34:09,468] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.54s           2023-10-29T17:33:57
+================================================================================
+[2023-10-29 14:34:39,589] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.67s           2023-10-29T17:34:28
+================================================================================
+[2023-10-29 14:35:09,818] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.62s           2023-10-29T17:34:59
+================================================================================
+[2023-10-29 14:35:29,497] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:35:29,500] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:35:40,606] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  2.07s           2023-10-29T17:35:31
+================================================================================
+[2023-10-29 14:36:10,716] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.00s           2023-10-29T17:36:02
+================================================================================
+[2023-10-29 14:36:40,793] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.65s           2023-10-29T17:36:33
+================================================================================
+[2023-10-29 14:37:10,861] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T17:37:03
+================================================================================
+[2023-10-29 14:37:41,037] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.39s           2023-10-29T17:37:34
+================================================================================
+[2023-10-29 14:38:11,505] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.51s           2023-10-29T17:38:04
+================================================================================
+[2023-10-29 14:38:41,552] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.47s           2023-10-29T17:38:35
+================================================================================
+[2023-10-29 14:39:11,625] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.46s           2023-10-29T17:39:06
+================================================================================
+[2023-10-29 14:39:41,639] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.50s           2023-10-29T17:39:36
+================================================================================
+[2023-10-29 14:40:12,216] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.76s           2023-10-29T17:40:07
+================================================================================
+[2023-10-29 14:40:29,514] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:40:29,516] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:40:42,612] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.04s           2023-10-29T17:40:38
+================================================================================
+[2023-10-29 14:41:12,781] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.66s           2023-10-29T17:41:10
+================================================================================
+[2023-10-29 14:41:42,862] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.84s           2023-10-29T17:41:41
+================================================================================
+[2023-10-29 14:42:13,457] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.17s           2023-10-29T17:42:12
+================================================================================
+[2023-10-29 14:42:43,556] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py  11609  0.82s             1           0  1.17s           2023-10-29T17:42:12
+================================================================================
+[2023-10-29 14:43:13,860] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.17s           2023-10-29T17:42:43
+================================================================================
+[2023-10-29 14:43:43,979] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.05s           2023-10-29T17:43:15
+================================================================================
+[2023-10-29 14:44:14,091] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.03s           2023-10-29T17:43:46
+================================================================================
+[2023-10-29 14:44:44,518] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.09s           2023-10-29T17:44:17
+================================================================================
+[2023-10-29 14:45:14,632] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.16s           2023-10-29T17:44:48
+================================================================================
+[2023-10-29 14:45:29,844] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:45:29,854] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:45:44,927] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.16s           2023-10-29T17:45:19
+================================================================================
+[2023-10-29 14:46:15,179] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  2.16s           2023-10-29T17:45:52
+================================================================================
+[2023-10-29 14:46:45,304] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.08s           2023-10-29T17:46:23
+================================================================================
+[2023-10-29 14:47:15,493] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.12s           2023-10-29T17:46:54
+================================================================================
+[2023-10-29 14:47:45,591] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.98s           2023-10-29T17:47:25
+================================================================================
+[2023-10-29 14:48:15,710] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.91s           2023-10-29T17:47:56
+================================================================================
+[2023-10-29 14:48:45,723] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.05s           2023-10-29T17:48:27
+================================================================================
+[2023-10-29 14:49:15,791] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.97s           2023-10-29T17:48:58
+================================================================================
+[2023-10-29 14:49:45,848] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.95s           2023-10-29T17:49:29
+================================================================================
+[2023-10-29 14:50:16,004] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.98s           2023-10-29T17:50:00
+================================================================================
+[2023-10-29 14:50:30,051] {manager.py:690} INFO - Searching for files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:50:30,053] {manager.py:693} INFO - There are 1 files in /home/gabriel/Documents/project_finance/airflow/dags
+[2023-10-29 14:50:46,153] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.09s           2023-10-29T17:50:32
+================================================================================
+[2023-10-29 14:51:16,301] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.09s           2023-10-29T17:51:03
+================================================================================
+[2023-10-29 14:51:46,414] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.85s           2023-10-29T17:51:34
+================================================================================
+[2023-10-29 14:52:17,369] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.02s           2023-10-29T17:52:05
+================================================================================
+[2023-10-29 14:52:47,457] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.00s           2023-10-29T17:52:36
+================================================================================
+[2023-10-29 14:53:17,604] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  2.00s           2023-10-29T17:53:08
+================================================================================
+[2023-10-29 14:53:47,668] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  0.98s           2023-10-29T17:53:39
+================================================================================
+[2023-10-29 14:54:17,783] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.02s           2023-10-29T17:54:10
+================================================================================
+[2023-10-29 14:54:47,931] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py                           1           0  1.24s           2023-10-29T17:54:42
+================================================================================

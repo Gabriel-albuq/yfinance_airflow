@@ -1,0 +1,74 @@
+[2023-10-29 11:26:55,643] {processor.py:153} INFO - Started process (PID=13226) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 11:26:55,644] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 11:26:55,644] {logging_mixin.py:115} INFO - [2023-10-29 11:26:55,644] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 11:26:55,666] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 11:26:55,709] {logging_mixin.py:115} INFO - [2023-10-29 11:26:55,709] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 11:26:55,722] {logging_mixin.py:115} INFO - [2023-10-29 11:26:55,722] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 11:26:55,732] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.092 seconds
+[2023-10-29 13:18:54,525] {processor.py:153} INFO - Started process (PID=3593) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:18:54,526] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:18:54,526] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,526] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:18:54,546] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:18:54,594] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,594] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2023-10-29 13:18:54,601] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,601] {manager.py:508} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2023-10-29 13:18:54,606] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,605] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2023-10-29 13:18:54,606] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,606] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:54,611] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,611] {dag.py:2398} INFO - Creating ORM DAG for example_dag_decorator
+[2023-10-29 13:18:54,618] {logging_mixin.py:115} INFO - [2023-10-29 13:18:54,618] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:18:54,628] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.106 seconds
+[2023-10-29 13:19:28,500] {processor.py:153} INFO - Started process (PID=3629) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:19:28,501] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:19:28,502] {logging_mixin.py:115} INFO - [2023-10-29 13:19:28,502] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:19:28,521] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:19:28,558] {logging_mixin.py:115} INFO - [2023-10-29 13:19:28,557] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:28,569] {logging_mixin.py:115} INFO - [2023-10-29 13:19:28,569] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:19:28,578] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.084 seconds
+[2023-10-29 13:20:08,222] {processor.py:153} INFO - Started process (PID=3693) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:20:08,222] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:20:08,223] {logging_mixin.py:115} INFO - [2023-10-29 13:20:08,223] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:20:08,258] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:20:08,333] {logging_mixin.py:115} INFO - [2023-10-29 13:20:08,333] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:08,348] {logging_mixin.py:115} INFO - [2023-10-29 13:20:08,347] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:20:08,358] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.142 seconds
+[2023-10-29 13:20:42,990] {processor.py:153} INFO - Started process (PID=3798) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:20:42,992] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:20:42,993] {logging_mixin.py:115} INFO - [2023-10-29 13:20:42,993] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:20:43,014] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:20:43,056] {logging_mixin.py:115} INFO - [2023-10-29 13:20:43,056] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:43,071] {logging_mixin.py:115} INFO - [2023-10-29 13:20:43,071] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:20:43,082] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.104 seconds
+[2023-10-29 13:21:17,742] {processor.py:153} INFO - Started process (PID=4322) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:21:17,743] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:21:17,744] {logging_mixin.py:115} INFO - [2023-10-29 13:21:17,744] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:21:17,765] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:21:17,780] {logging_mixin.py:115} INFO - [2023-10-29 13:21:17,780] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:17,795] {logging_mixin.py:115} INFO - [2023-10-29 13:21:17,795] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:21:17,805] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.066 seconds
+[2023-10-29 13:21:51,549] {processor.py:153} INFO - Started process (PID=4474) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:21:51,549] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:21:51,550] {logging_mixin.py:115} INFO - [2023-10-29 13:21:51,550] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:21:51,568] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:21:51,581] {logging_mixin.py:115} INFO - [2023-10-29 13:21:51,581] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:51,597] {logging_mixin.py:115} INFO - [2023-10-29 13:21:51,597] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:21:51,605] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.059 seconds
+[2023-10-29 13:22:24,521] {processor.py:153} INFO - Started process (PID=4550) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:24,522] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:22:24,523] {logging_mixin.py:115} INFO - [2023-10-29 13:22:24,523] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:24,542] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:24,555] {logging_mixin.py:115} INFO - [2023-10-29 13:22:24,555] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:24,571] {logging_mixin.py:115} INFO - [2023-10-29 13:22:24,571] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:22:24,581] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.062 seconds
+[2023-10-29 13:22:26,237] {processor.py:153} INFO - Started process (PID=4553) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:26,237] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:22:26,238] {logging_mixin.py:115} INFO - [2023-10-29 13:22:26,238] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:26,257] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:26,292] {logging_mixin.py:115} INFO - [2023-10-29 13:22:26,292] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:26,303] {logging_mixin.py:115} INFO - [2023-10-29 13:22:26,303] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:22:26,314] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.080 seconds
+[2023-10-29 13:22:59,323] {processor.py:153} INFO - Started process (PID=4641) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:59,324] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29 13:22:59,325] {logging_mixin.py:115} INFO - [2023-10-29 13:22:59,325] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:59,345] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29 13:22:59,382] {logging_mixin.py:115} INFO - [2023-10-29 13:22:59,382] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:59,393] {logging_mixin.py:115} INFO - [2023-10-29 13:22:59,393] {dag.py:2927} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29 13:22:59,403] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.082 seconds

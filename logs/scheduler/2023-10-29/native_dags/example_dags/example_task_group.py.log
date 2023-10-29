@@ -1,0 +1,81 @@
+[2023-10-29 11:26:42,706] {processor.py:153} INFO - Started process (PID=13140) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 11:26:42,707] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 11:26:42,707] {logging_mixin.py:115} INFO - [2023-10-29 11:26:42,707] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 11:26:42,715] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 11:26:42,733] {logging_mixin.py:115} INFO - [2023-10-29 11:26:42,733] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 11:26:42,751] {logging_mixin.py:115} INFO - [2023-10-29 11:26:42,751] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T14:26:42.751265+00:00, run_after=2023-10-29T14:26:42.751265+00:00
+[2023-10-29 11:26:42,769] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.066 seconds
+[2023-10-29 13:17:52,966] {processor.py:153} INFO - Started process (PID=3485) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:17:52,967] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:17:52,967] {logging_mixin.py:115} INFO - [2023-10-29 13:17:52,967] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:17:52,975] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:17:53,008] {logging_mixin.py:115} INFO - [2023-10-29 13:17:53,008] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2023-10-29 13:17:53,014] {logging_mixin.py:115} INFO - [2023-10-29 13:17:53,014] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2023-10-29 13:17:53,020] {logging_mixin.py:115} INFO - [2023-10-29 13:17:53,020] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2023-10-29 13:17:53,020] {logging_mixin.py:115} INFO - [2023-10-29 13:17:53,020] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:17:53,026] {logging_mixin.py:115} INFO - [2023-10-29 13:17:53,026] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2023-10-29 13:17:53,033] {logging_mixin.py:115} INFO - [2023-10-29 13:17:53,033] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:17:53.032958+00:00, run_after=2023-10-29T16:17:53.032958+00:00
+[2023-10-29 13:17:53,048] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2023-10-29 13:18:43,185] {processor.py:153} INFO - Started process (PID=3580) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:18:43,186] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:18:43,187] {logging_mixin.py:115} INFO - [2023-10-29 13:18:43,187] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:18:43,194] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:18:43,210] {logging_mixin.py:115} INFO - [2023-10-29 13:18:43,210] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:43,226] {logging_mixin.py:115} INFO - [2023-10-29 13:18:43,226] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:18:43.226190+00:00, run_after=2023-10-29T16:18:43.226190+00:00
+[2023-10-29 13:18:43,238] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2023-10-29 13:19:17,097] {processor.py:153} INFO - Started process (PID=3616) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:19:17,098] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:19:17,099] {logging_mixin.py:115} INFO - [2023-10-29 13:19:17,098] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:19:17,105] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:19:17,120] {logging_mixin.py:115} INFO - [2023-10-29 13:19:17,120] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:17,135] {logging_mixin.py:115} INFO - [2023-10-29 13:19:17,135] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:19:17.135298+00:00, run_after=2023-10-29T16:19:17.135298+00:00
+[2023-10-29 13:19:17,149] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.055 seconds
+[2023-10-29 13:19:56,695] {processor.py:153} INFO - Started process (PID=3679) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:19:56,696] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:19:56,696] {logging_mixin.py:115} INFO - [2023-10-29 13:19:56,696] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:19:56,702] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:19:56,717] {logging_mixin.py:115} INFO - [2023-10-29 13:19:56,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:56,731] {logging_mixin.py:115} INFO - [2023-10-29 13:19:56,731] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:19:56.731090+00:00, run_after=2023-10-29T16:19:56.731090+00:00
+[2023-10-29 13:19:56,742] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2023-10-29 13:20:30,441] {processor.py:153} INFO - Started process (PID=3717) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:20:30,441] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:20:30,442] {logging_mixin.py:115} INFO - [2023-10-29 13:20:30,442] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:20:30,448] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:20:30,462] {logging_mixin.py:115} INFO - [2023-10-29 13:20:30,462] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:30,476] {logging_mixin.py:115} INFO - [2023-10-29 13:20:30,476] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:20:30.476684+00:00, run_after=2023-10-29T16:20:30.476684+00:00
+[2023-10-29 13:20:30,489] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2023-10-29 13:21:05,820] {processor.py:153} INFO - Started process (PID=4259) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:21:05,821] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:21:05,821] {logging_mixin.py:115} INFO - [2023-10-29 13:21:05,821] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:21:05,828] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:21:05,842] {logging_mixin.py:115} INFO - [2023-10-29 13:21:05,842] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:05,855] {logging_mixin.py:115} INFO - [2023-10-29 13:21:05,855] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:21:05.855338+00:00, run_after=2023-10-29T16:21:05.855338+00:00
+[2023-10-29 13:21:05,867] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2023-10-29 13:21:38,293] {processor.py:153} INFO - Started process (PID=4436) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:21:38,293] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:21:38,294] {logging_mixin.py:115} INFO - [2023-10-29 13:21:38,294] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:21:38,300] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:21:38,315] {logging_mixin.py:115} INFO - [2023-10-29 13:21:38,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:38,330] {logging_mixin.py:115} INFO - [2023-10-29 13:21:38,330] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:21:38.330145+00:00, run_after=2023-10-29T16:21:38.330145+00:00
+[2023-10-29 13:21:38,342] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2023-10-29 13:22:12,928] {processor.py:153} INFO - Started process (PID=4525) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:12,928] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:22:12,929] {logging_mixin.py:115} INFO - [2023-10-29 13:22:12,928] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:12,935] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:12,951] {logging_mixin.py:115} INFO - [2023-10-29 13:22:12,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:12,967] {logging_mixin.py:115} INFO - [2023-10-29 13:22:12,967] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:22:12.967450+00:00, run_after=2023-10-29T16:22:12.967450+00:00
+[2023-10-29 13:22:12,980] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2023-10-29 13:22:14,842] {processor.py:153} INFO - Started process (PID=4529) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:14,843] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:22:14,845] {logging_mixin.py:115} INFO - [2023-10-29 13:22:14,844] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:14,852] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:14,869] {logging_mixin.py:115} INFO - [2023-10-29 13:22:14,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:14,887] {logging_mixin.py:115} INFO - [2023-10-29 13:22:14,886] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:22:14.886649+00:00, run_after=2023-10-29T16:22:14.886649+00:00
+[2023-10-29 13:22:14,902] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.062 seconds
+[2023-10-29 13:22:45,097] {processor.py:153} INFO - Started process (PID=4587) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:45,098] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-29 13:22:45,098] {logging_mixin.py:115} INFO - [2023-10-29 13:22:45,098] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:45,104] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-29 13:22:45,118] {logging_mixin.py:115} INFO - [2023-10-29 13:22:45,118] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:45,132] {logging_mixin.py:115} INFO - [2023-10-29 13:22:45,132] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-28T16:22:45.132416+00:00, run_after=2023-10-29T16:22:45.132416+00:00
+[2023-10-29 13:22:45,143] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds

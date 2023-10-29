@@ -1,0 +1,100 @@
+[2023-10-29 11:26:37,559] {processor.py:153} INFO - Started process (PID=13133) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 11:26:37,559] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 11:26:37,562] {logging_mixin.py:115} INFO - [2023-10-29 11:26:37,562] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 11:26:37,577] {logging_mixin.py:115} INFO - [2023-10-29 11:26:37,577] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 11:26:37,577] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 11:26:37,591] {logging_mixin.py:115} INFO - [2023-10-29 11:26:37,591] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 11:26:37,612] {logging_mixin.py:115} INFO - [2023-10-29 11:26:37,612] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 11:26:37,623] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2023-10-29 13:17:47,728] {processor.py:153} INFO - Started process (PID=3469) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:17:47,729] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:17:47,730] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,730] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:17:47,746] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,746] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:17:47,746] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:17:47,779] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,778] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2023-10-29 13:17:47,786] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,786] {manager.py:508} INFO - Created Permission View: can read on DAG:example_python_operator
+[2023-10-29 13:17:47,792] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,792] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2023-10-29 13:17:47,792] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,792] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:17:47,800] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,800] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2023-10-29 13:17:47,810] {logging_mixin.py:115} INFO - [2023-10-29 13:17:47,810] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:17:47,823] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.097 seconds
+[2023-10-29 13:18:38,158] {processor.py:153} INFO - Started process (PID=3564) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:18:38,159] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:18:38,160] {logging_mixin.py:115} INFO - [2023-10-29 13:18:38,160] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:18:38,175] {logging_mixin.py:115} INFO - [2023-10-29 13:18:38,175] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:18:38,176] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:18:38,190] {logging_mixin.py:115} INFO - [2023-10-29 13:18:38,189] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:38,207] {logging_mixin.py:115} INFO - [2023-10-29 13:18:38,207] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:18:38,216] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2023-10-29 13:19:11,963] {processor.py:153} INFO - Started process (PID=3611) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:19:11,964] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:19:11,964] {logging_mixin.py:115} INFO - [2023-10-29 13:19:11,964] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:19:11,980] {logging_mixin.py:115} INFO - [2023-10-29 13:19:11,980] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:19:11,980] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:19:11,994] {logging_mixin.py:115} INFO - [2023-10-29 13:19:11,994] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:12,011] {logging_mixin.py:115} INFO - [2023-10-29 13:19:12,011] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:19:12,020] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.060 seconds
+[2023-10-29 13:19:52,677] {processor.py:153} INFO - Started process (PID=3674) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:19:52,678] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:19:52,678] {logging_mixin.py:115} INFO - [2023-10-29 13:19:52,678] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:19:52,695] {logging_mixin.py:115} INFO - [2023-10-29 13:19:52,695] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:19:52,695] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:19:52,709] {logging_mixin.py:115} INFO - [2023-10-29 13:19:52,709] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:52,725] {logging_mixin.py:115} INFO - [2023-10-29 13:19:52,725] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:19:52,734] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.060 seconds
+[2023-10-29 13:20:25,310] {processor.py:153} INFO - Started process (PID=3711) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:20:25,311] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:20:25,312] {logging_mixin.py:115} INFO - [2023-10-29 13:20:25,312] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:20:25,333] {logging_mixin.py:115} INFO - [2023-10-29 13:20:25,333] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:20:25,333] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:20:25,347] {logging_mixin.py:115} INFO - [2023-10-29 13:20:25,347] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:25,363] {logging_mixin.py:115} INFO - [2023-10-29 13:20:25,363] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:20:25,372] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.067 seconds
+[2023-10-29 13:21:00,065] {processor.py:153} INFO - Started process (PID=4231) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:21:00,066] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:21:00,066] {logging_mixin.py:115} INFO - [2023-10-29 13:21:00,066] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:21:00,081] {logging_mixin.py:115} INFO - [2023-10-29 13:21:00,081] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:21:00,081] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:21:00,097] {logging_mixin.py:115} INFO - [2023-10-29 13:21:00,097] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:00,128] {logging_mixin.py:115} INFO - [2023-10-29 13:21:00,128] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:21:00,138] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.076 seconds
+[2023-10-29 13:21:33,153] {processor.py:153} INFO - Started process (PID=4408) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:21:33,154] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:21:33,155] {logging_mixin.py:115} INFO - [2023-10-29 13:21:33,154] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:21:33,169] {logging_mixin.py:115} INFO - [2023-10-29 13:21:33,169] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:21:33,169] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:21:33,183] {logging_mixin.py:115} INFO - [2023-10-29 13:21:33,182] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:33,199] {logging_mixin.py:115} INFO - [2023-10-29 13:21:33,198] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:21:33,207] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.057 seconds
+[2023-10-29 13:22:07,944] {processor.py:153} INFO - Started process (PID=4509) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:07,945] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:22:07,946] {logging_mixin.py:115} INFO - [2023-10-29 13:22:07,945] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:07,960] {logging_mixin.py:115} INFO - [2023-10-29 13:22:07,960] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:22:07,960] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:07,974] {logging_mixin.py:115} INFO - [2023-10-29 13:22:07,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:07,990] {logging_mixin.py:115} INFO - [2023-10-29 13:22:07,990] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:22:08,006] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.064 seconds
+[2023-10-29 13:22:10,855] {processor.py:153} INFO - Started process (PID=4515) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:10,855] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:22:10,855] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,855] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:10,871] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,871] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:22:10,871] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:10,885] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,884] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:10,905] {logging_mixin.py:115} INFO - [2023-10-29 13:22:10,905] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:22:10,916] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.064 seconds
+[2023-10-29 13:22:40,788] {processor.py:153} INFO - Started process (PID=4574) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:40,789] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:22:40,789] {logging_mixin.py:115} INFO - [2023-10-29 13:22:40,789] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:40,804] {logging_mixin.py:115} INFO - [2023-10-29 13:22:40,803] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:22:40,804] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:22:40,816] {logging_mixin.py:115} INFO - [2023-10-29 13:22:40,816] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:40,833] {logging_mixin.py:115} INFO - [2023-10-29 13:22:40,833] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:22:40,843] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.058 seconds
+[2023-10-29 13:23:13,593] {processor.py:153} INFO - Started process (PID=4732) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:23:13,593] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-29 13:23:13,594] {logging_mixin.py:115} INFO - [2023-10-29 13:23:13,594] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:23:13,611] {logging_mixin.py:115} INFO - [2023-10-29 13:23:13,611] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-29 13:23:13,611] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-29 13:23:13,626] {logging_mixin.py:115} INFO - [2023-10-29 13:23:13,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:23:13,644] {logging_mixin.py:115} INFO - [2023-10-29 13:23:13,644] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-29 13:23:13,654] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds

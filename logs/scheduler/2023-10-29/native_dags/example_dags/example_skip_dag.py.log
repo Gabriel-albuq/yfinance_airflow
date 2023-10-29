@@ -1,0 +1,88 @@
+[2023-10-29 13:17:41,442] {processor.py:153} INFO - Started process (PID=3438) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:17:41,442] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:17:41,443] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,443] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:17:41,447] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:17:41,480] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,480] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2023-10-29 13:17:41,487] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,487] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2023-10-29 13:17:41,493] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,493] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2023-10-29 13:17:41,493] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,493] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:17:41,500] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,500] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2023-10-29 13:17:41,507] {logging_mixin.py:115} INFO - [2023-10-29 13:17:41,507] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:17:41.507337+00:00, run_after=2023-10-29T16:17:41.507337+00:00
+[2023-10-29 13:17:41,521] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.082 seconds
+[2023-10-29 13:18:31,772] {processor.py:153} INFO - Started process (PID=3531) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:18:31,777] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:18:31,778] {logging_mixin.py:115} INFO - [2023-10-29 13:18:31,777] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:18:31,782] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:18:31,797] {logging_mixin.py:115} INFO - [2023-10-29 13:18:31,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:18:31,812] {logging_mixin.py:115} INFO - [2023-10-29 13:18:31,812] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:18:31.812072+00:00, run_after=2023-10-29T16:18:31.812072+00:00
+[2023-10-29 13:18:31,827] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.058 seconds
+[2023-10-29 13:19:04,767] {processor.py:153} INFO - Started process (PID=3603) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:19:04,768] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:19:04,768] {logging_mixin.py:115} INFO - [2023-10-29 13:19:04,768] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:19:04,773] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:19:04,787] {logging_mixin.py:115} INFO - [2023-10-29 13:19:04,787] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:04,801] {logging_mixin.py:115} INFO - [2023-10-29 13:19:04,801] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:19:04.801540+00:00, run_after=2023-10-29T16:19:04.801540+00:00
+[2023-10-29 13:19:04,812] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2023-10-29 13:19:46,415] {processor.py:153} INFO - Started process (PID=3666) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:19:46,416] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:19:46,417] {logging_mixin.py:115} INFO - [2023-10-29 13:19:46,417] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:19:46,421] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:19:46,437] {logging_mixin.py:115} INFO - [2023-10-29 13:19:46,437] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:19:46,452] {logging_mixin.py:115} INFO - [2023-10-29 13:19:46,452] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:19:46.452204+00:00, run_after=2023-10-29T16:19:46.452204+00:00
+[2023-10-29 13:19:46,465] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2023-10-29 13:20:18,403] {processor.py:153} INFO - Started process (PID=3703) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:20:18,404] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:20:18,404] {logging_mixin.py:115} INFO - [2023-10-29 13:20:18,404] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:20:18,409] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:20:18,423] {logging_mixin.py:115} INFO - [2023-10-29 13:20:18,423] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:18,439] {logging_mixin.py:115} INFO - [2023-10-29 13:20:18,438] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:20:18.438742+00:00, run_after=2023-10-29T16:20:18.438742+00:00
+[2023-10-29 13:20:18,449] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2023-10-29 13:20:53,274] {processor.py:153} INFO - Started process (PID=4173) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:20:53,275] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:20:53,275] {logging_mixin.py:115} INFO - [2023-10-29 13:20:53,275] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:20:53,280] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:20:53,294] {logging_mixin.py:115} INFO - [2023-10-29 13:20:53,294] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:20:53,308] {logging_mixin.py:115} INFO - [2023-10-29 13:20:53,308] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:20:53.308209+00:00, run_after=2023-10-29T16:20:53.308209+00:00
+[2023-10-29 13:20:53,319] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2023-10-29 13:21:26,278] {processor.py:153} INFO - Started process (PID=4377) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:21:26,279] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:21:26,279] {logging_mixin.py:115} INFO - [2023-10-29 13:21:26,279] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:21:26,284] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:21:26,299] {logging_mixin.py:115} INFO - [2023-10-29 13:21:26,299] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:21:26,315] {logging_mixin.py:115} INFO - [2023-10-29 13:21:26,315] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:21:26.314991+00:00, run_after=2023-10-29T16:21:26.314991+00:00
+[2023-10-29 13:21:26,326] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2023-10-29 13:22:00,548] {processor.py:153} INFO - Started process (PID=4492) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:00,549] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:22:00,549] {logging_mixin.py:115} INFO - [2023-10-29 13:22:00,549] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:00,554] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:00,568] {logging_mixin.py:115} INFO - [2023-10-29 13:22:00,568] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:00,583] {logging_mixin.py:115} INFO - [2023-10-29 13:22:00,583] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:22:00.583565+00:00, run_after=2023-10-29T16:22:00.583565+00:00
+[2023-10-29 13:22:00,596] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2023-10-29 13:22:04,563] {processor.py:153} INFO - Started process (PID=4500) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:04,564] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:22:04,565] {logging_mixin.py:115} INFO - [2023-10-29 13:22:04,564] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:04,569] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:04,583] {logging_mixin.py:115} INFO - [2023-10-29 13:22:04,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:04,598] {logging_mixin.py:115} INFO - [2023-10-29 13:22:04,598] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:22:04.597854+00:00, run_after=2023-10-29T16:22:04.597854+00:00
+[2023-10-29 13:22:04,609] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2023-10-29 13:22:33,657] {processor.py:153} INFO - Started process (PID=4566) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:33,657] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:22:33,658] {logging_mixin.py:115} INFO - [2023-10-29 13:22:33,658] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:33,662] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:33,677] {logging_mixin.py:115} INFO - [2023-10-29 13:22:33,677] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:33,692] {logging_mixin.py:115} INFO - [2023-10-29 13:22:33,692] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:22:33.691981+00:00, run_after=2023-10-29T16:22:33.691981+00:00
+[2023-10-29 13:22:33,704] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2023-10-29 13:22:49,116] {processor.py:153} INFO - Started process (PID=4600) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:49,117] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:22:49,117] {logging_mixin.py:115} INFO - [2023-10-29 13:22:49,117] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:49,121] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:22:49,136] {logging_mixin.py:115} INFO - [2023-10-29 13:22:49,135] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:22:49,151] {logging_mixin.py:115} INFO - [2023-10-29 13:22:49,151] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:22:49.151391+00:00, run_after=2023-10-29T16:22:49.151391+00:00
+[2023-10-29 13:22:49,163] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2023-10-29 13:23:06,725] {processor.py:153} INFO - Started process (PID=4677) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:23:06,726] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-10-29 13:23:06,726] {logging_mixin.py:115} INFO - [2023-10-29 13:23:06,726] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:23:06,731] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-10-29 13:23:06,746] {logging_mixin.py:115} INFO - [2023-10-29 13:23:06,746] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-29 13:23:06,760] {logging_mixin.py:115} INFO - [2023-10-29 13:23:06,760] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2023-10-28T16:23:06.759777+00:00, run_after=2023-10-29T16:23:06.759777+00:00
+[2023-10-29 13:23:06,771] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
