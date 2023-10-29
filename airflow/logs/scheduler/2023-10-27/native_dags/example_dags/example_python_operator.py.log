@@ -1,0 +1,12 @@
+[2023-10-27 13:30:37,069] {processor.py:153} INFO - Started process (PID=10544) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-27 13:30:37,069] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-10-27 13:30:37,070] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,070] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-27 13:30:37,085] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,085] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-10-27 13:30:37,086] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2023-10-27 13:30:37,139] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,139] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2023-10-27 13:30:37,147] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,147] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2023-10-27 13:30:37,153] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,153] {manager.py:508} INFO - Created Permission View: can read on DAG:example_python_operator
+[2023-10-27 13:30:37,153] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,153] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:37,160] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,160] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2023-10-27 13:30:37,168] {logging_mixin.py:115} INFO - [2023-10-27 13:30:37,168] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-10-27 13:30:37,180] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.115 seconds

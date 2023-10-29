@@ -1,0 +1,23 @@
+[2023-10-27 18:11:31,094] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.transform_stocks scheduled__2023-10-17T00:00:00+00:00 [queued]>
+[2023-10-27 18:11:31,100] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.transform_stocks scheduled__2023-10-17T00:00:00+00:00 [queued]>
+[2023-10-27 18:11:31,100] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-27 18:11:31,100] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-10-27 18:11:31,100] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-27 18:11:31,109] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): transform_stocks> on 2023-10-17 00:00:00+00:00
+[2023-10-27 18:11:31,113] {standard_task_runner.py:52} INFO - Started process 49777 to run task
+[2023-10-27 18:11:31,117] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'transform_stocks', 'scheduled__2023-10-17T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/get_finance.py', '--cfg-path', '/tmp/tmp7bucfqs9', '--error-file', '/tmp/tmp1efyunq6']
+[2023-10-27 18:11:31,117] {standard_task_runner.py:80} INFO - Job 59: Subtask transform_stocks
+[2023-10-27 18:11:31,158] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.transform_stocks scheduled__2023-10-17T00:00:00+00:00 [running]> on host airflow-virtual-machine
+[2023-10-27 18:11:31,254] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=transform_stocks
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-17T00:00:00+00:00
+[2023-10-27 18:11:31,308] {python.py:173} INFO - Done. Returned value was: None
+[2023-10-27 18:11:31,322] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=transform_stocks, execution_date=20231017T000000, start_date=20231027T211131, end_date=20231027T211131
+[2023-10-27 18:11:31,375] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-10-27 18:11:31,393] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

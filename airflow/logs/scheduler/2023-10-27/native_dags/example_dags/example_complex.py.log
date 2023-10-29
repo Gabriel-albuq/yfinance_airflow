@@ -1,0 +1,11 @@
+[2023-10-27 13:30:53,050] {processor.py:153} INFO - Started process (PID=10679) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-27 13:30:53,051] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-27 13:30:53,051] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,051] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-27 13:30:53,065] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-27 13:30:53,165] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,165] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_complex
+[2023-10-27 13:30:53,174] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,174] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_complex
+[2023-10-27 13:30:53,189] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,189] {manager.py:508} INFO - Created Permission View: can read on DAG:example_complex
+[2023-10-27 13:30:53,190] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,189] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:53,198] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,198] {dag.py:2398} INFO - Creating ORM DAG for example_complex
+[2023-10-27 13:30:53,208] {logging_mixin.py:115} INFO - [2023-10-27 13:30:53,208] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-27 13:30:53,228] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.181 seconds

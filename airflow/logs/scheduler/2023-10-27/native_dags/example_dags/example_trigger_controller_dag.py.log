@@ -1,0 +1,18 @@
+[2023-10-27 13:30:28,123] {processor.py:153} INFO - Started process (PID=10480) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-10-27 13:30:28,123] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-10-27 13:30:28,124] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,124] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-10-27 13:30:28,141] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-10-27 13:30:28,281] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,280] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_trigger_controller_dag
+[2023-10-27 13:30:28,308] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,308] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_trigger_controller_dag
+[2023-10-27 13:30:28,316] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,316] {manager.py:508} INFO - Created Permission View: can read on DAG:example_trigger_controller_dag
+[2023-10-27 13:30:28,316] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,316] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:28,323] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,323] {dag.py:2398} INFO - Creating ORM DAG for example_trigger_controller_dag
+[2023-10-27 13:30:28,330] {logging_mixin.py:115} INFO - [2023-10-27 13:30:28,330] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-27 13:30:28,340] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.221 seconds
+[2023-10-27 13:31:04,720] {processor.py:153} INFO - Started process (PID=10731) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-10-27 13:31:04,721] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-10-27 13:31:04,721] {logging_mixin.py:115} INFO - [2023-10-27 13:31:04,721] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-10-27 13:31:04,725] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-10-27 13:31:04,743] {logging_mixin.py:115} INFO - [2023-10-27 13:31:04,743] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:31:04,761] {logging_mixin.py:115} INFO - [2023-10-27 13:31:04,761] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-27 13:31:04,777] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.059 seconds

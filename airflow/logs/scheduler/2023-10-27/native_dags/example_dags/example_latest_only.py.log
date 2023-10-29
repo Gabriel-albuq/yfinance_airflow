@@ -1,0 +1,11 @@
+[2023-10-27 13:30:31,831] {processor.py:153} INFO - Started process (PID=10504) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-27 13:30:31,832] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-10-27 13:30:31,832] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,832] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-27 13:30:31,838] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-10-27 13:30:31,889] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,889] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only
+[2023-10-27 13:30:31,898] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,898] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only
+[2023-10-27 13:30:31,903] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,903] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only
+[2023-10-27 13:30:31,904] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,904] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:31,910] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,910] {dag.py:2398} INFO - Creating ORM DAG for latest_only
+[2023-10-27 13:30:31,918] {logging_mixin.py:115} INFO - [2023-10-27 13:30:31,918] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-10-27T12:30:31.918414+00:00, run_after=2023-10-27T16:30:31.918414+00:00
+[2023-10-27 13:30:31,930] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.102 seconds

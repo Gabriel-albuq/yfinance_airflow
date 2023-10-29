@@ -1,0 +1,11 @@
+[2023-10-27 13:30:35,358] {processor.py:153} INFO - Started process (PID=10530) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-10-27 13:30:35,358] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-10-27 13:30:35,359] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,359] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-10-27 13:30:35,366] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-10-27 13:30:35,426] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,426] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2023-10-27 13:30:35,435] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,435] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2023-10-27 13:30:35,440] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,440] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2023-10-27 13:30:35,440] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,440] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:35,446] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,446] {dag.py:2398} INFO - Creating ORM DAG for latest_only_with_trigger
+[2023-10-27 13:30:35,455] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,454] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-10-27T12:30:35.454553+00:00, run_after=2023-10-27T16:30:35.454553+00:00
+[2023-10-27 13:30:35,465] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.122 seconds

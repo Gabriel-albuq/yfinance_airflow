@@ -1,0 +1,10 @@
+[2023-10-27 13:30:25,567] {processor.py:153} INFO - Started process (PID=10469) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-10-27 13:30:25,567] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-10-27 13:30:25,568] {logging_mixin.py:115} INFO - [2023-10-27 13:30:25,568] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-10-27 13:30:25,570] {processor.py:653} WARNING - No viable dags retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-10-27 13:30:25,580] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2023-10-27 13:31:02,321] {processor.py:153} INFO - Started process (PID=10726) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-10-27 13:31:02,322] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-10-27 13:31:02,323] {logging_mixin.py:115} INFO - [2023-10-27 13:31:02,323] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-10-27 13:31:02,325] {processor.py:653} WARNING - No viable dags retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2023-10-27 13:31:02,335] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds

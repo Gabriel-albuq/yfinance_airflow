@@ -1,0 +1,10 @@
+[2023-10-27 13:30:24,881] {processor.py:153} INFO - Started process (PID=10468) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-10-27 13:30:24,881] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-10-27 13:30:24,882] {logging_mixin.py:115} INFO - [2023-10-27 13:30:24,882] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-10-27 13:30:24,883] {processor.py:653} WARNING - No viable dags retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-10-27 13:30:24,909] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.031 seconds
+[2023-10-27 13:31:01,297] {processor.py:153} INFO - Started process (PID=10723) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-10-27 13:31:01,315] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-10-27 13:31:01,318] {logging_mixin.py:115} INFO - [2023-10-27 13:31:01,317] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-10-27 13:31:01,330] {processor.py:653} WARNING - No viable dags retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-10-27 13:31:01,353] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.120 seconds

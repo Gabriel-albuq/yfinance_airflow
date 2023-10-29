@@ -1,0 +1,11 @@
+[2023-10-27 13:30:55,626] {processor.py:153} INFO - Started process (PID=10696) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-10-27 13:30:55,626] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-10-27 13:30:55,627] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,627] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-10-27 13:30:55,646] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-10-27 13:30:55,715] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,715] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_python_operator_decorator
+[2023-10-27 13:30:55,725] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,725] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_python_operator_decorator
+[2023-10-27 13:30:55,733] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,733] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_python_operator_decorator
+[2023-10-27 13:30:55,733] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,733] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:55,740] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,740] {dag.py:2398} INFO - Creating ORM DAG for example_branch_python_operator_decorator
+[2023-10-27 13:30:55,749] {logging_mixin.py:115} INFO - [2023-10-27 13:30:55,749] {dag.py:2927} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-10-26T00:00:00+00:00, run_after=2023-10-27T00:00:00+00:00
+[2023-10-27 13:30:55,768] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.146 seconds

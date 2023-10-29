@@ -1,0 +1,18 @@
+[2023-10-27 13:30:47,675] {processor.py:153} INFO - Started process (PID=10633) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-10-27 13:30:47,676] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-10-27 13:30:47,676] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,676] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-10-27 13:30:47,696] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-10-27 13:30:47,749] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,749] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2023-10-27 13:30:47,757] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,756] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2023-10-27 13:30:47,762] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,762] {manager.py:508} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2023-10-27 13:30:47,762] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,762] {dag.py:2379} INFO - Sync 3 DAGs
+[2023-10-27 13:30:47,768] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,768] {dag.py:2398} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2023-10-27 13:30:47,769] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,769] {dag.py:2398} INFO - Creating ORM DAG for example_subdag_operator
+[2023-10-27 13:30:47,769] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,769] {dag.py:2398} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2023-10-27 13:30:47,776] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,776] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-10-27 13:30:47,777] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,777] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-10-27 13:30:47,777] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,777] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-10-27 13:30:47,782] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,782] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-10-27 13:30:47,786] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,786] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-10-27 13:30:47,786] {logging_mixin.py:115} INFO - [2023-10-27 13:30:47,786] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-10-27 13:30:47,793] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.121 seconds

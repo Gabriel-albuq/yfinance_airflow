@@ -1,0 +1,57 @@
+[2023-10-27 17:03:09,418] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.trasform_silver scheduled__2023-10-14T00:00:00+00:00 [queued]>
+[2023-10-27 17:03:09,429] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.trasform_silver scheduled__2023-10-14T00:00:00+00:00 [queued]>
+[2023-10-27 17:03:09,429] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-27 17:03:09,429] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-10-27 17:03:09,429] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-27 17:03:09,492] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): trasform_silver> on 2023-10-14 00:00:00+00:00
+[2023-10-27 17:03:09,524] {standard_task_runner.py:52} INFO - Started process 39815 to run task
+[2023-10-27 17:03:09,576] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'trasform_silver', 'scheduled__2023-10-14T00:00:00+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/get_finance.py', '--cfg-path', '/tmp/tmp7muneklv', '--error-file', '/tmp/tmpemqb8wgg']
+[2023-10-27 17:03:09,597] {standard_task_runner.py:80} INFO - Job 54: Subtask trasform_silver
+[2023-10-27 17:03:09,686] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.trasform_silver scheduled__2023-10-14T00:00:00+00:00 [running]> on host airflow-virtual-machine
+[2023-10-27 17:03:09,750] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=trasform_silver
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-14T00:00:00+00:00
+[2023-10-27 17:03:09,752] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 179, in execute
+    return_value = super().execute(context)
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/gabriel/Documents/project_finance/airflow/dags/get_finance.py", line 42, in transform_silver
+    df.to_csv(os.path.join(dest_path, f'Stocks_{ds_add(ds, -1)}.csv'), index=False)
+AttributeError: 'list' object has no attribute 'to_csv'
+[2023-10-27 17:03:09,756] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=get_stocks_dag, task_id=trasform_silver, execution_date=20231014T000000, start_date=20231027T200309, end_date=20231027T200309
+[2023-10-27 17:03:09,784] {standard_task_runner.py:92} ERROR - Failed to execute job 54 for task trasform_silver ('list' object has no attribute 'to_csv'; 39815)
+[2023-10-27 17:03:09,808] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-10-27 17:03:09,828] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-10-27 17:10:26,357] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.trasform_silver scheduled__2023-10-14T00:00:00+00:00 [queued]>
+[2023-10-27 17:10:26,366] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.trasform_silver scheduled__2023-10-14T00:00:00+00:00 [queued]>
+[2023-10-27 17:10:26,366] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-27 17:10:26,367] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-10-27 17:10:26,367] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-27 17:10:26,388] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): trasform_silver> on 2023-10-14 00:00:00+00:00
+[2023-10-27 17:10:26,397] {standard_task_runner.py:52} INFO - Started process 41532 to run task
+[2023-10-27 17:10:26,402] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'trasform_silver', 'scheduled__2023-10-14T00:00:00+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/get_finance.py', '--cfg-path', '/tmp/tmp7x6uc3co', '--error-file', '/tmp/tmpjfjfj3x4']
+[2023-10-27 17:10:26,404] {standard_task_runner.py:80} INFO - Job 54: Subtask trasform_silver
+[2023-10-27 17:10:26,451] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.trasform_silver scheduled__2023-10-14T00:00:00+00:00 [running]> on host airflow-virtual-machine
+[2023-10-27 17:10:26,517] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=trasform_silver
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-14T00:00:00+00:00
+[2023-10-27 17:10:26,544] {python.py:173} INFO - Done. Returned value was: None
+[2023-10-27 17:10:26,550] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=trasform_silver, execution_date=20231014T000000, start_date=20231027T201026, end_date=20231027T201026
+[2023-10-27 17:10:26,591] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-10-27 17:10:26,643] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

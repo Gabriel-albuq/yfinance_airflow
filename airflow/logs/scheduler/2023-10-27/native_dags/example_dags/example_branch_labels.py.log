@@ -1,0 +1,11 @@
+[2023-10-27 13:30:50,138] {processor.py:153} INFO - Started process (PID=10650) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-10-27 13:30:50,138] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-10-27 13:30:50,139] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,139] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-10-27 13:30:50,153] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-10-27 13:30:50,211] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,210] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2023-10-27 13:30:50,218] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,218] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2023-10-27 13:30:50,226] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,226] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2023-10-27 13:30:50,226] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,226] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:50,233] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,233] {dag.py:2398} INFO - Creating ORM DAG for example_branch_labels
+[2023-10-27 13:30:50,242] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,242] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-10-26T00:00:00+00:00, run_after=2023-10-27T00:00:00+00:00
+[2023-10-27 13:30:50,253] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.118 seconds

@@ -1,0 +1,16 @@
+[2023-10-27 13:30:38,299] {processor.py:153} INFO - Started process (PID=10556) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-10-27 13:30:38,299] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-10-27 13:30:38,300] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,300] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-10-27 13:30:38,318] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-10-27 13:30:38,373] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,373] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2023-10-27 13:30:38,381] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,380] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2023-10-27 13:30:38,386] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,386] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2023-10-27 13:30:38,409] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,409] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2023-10-27 13:30:38,415] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,415] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2023-10-27 13:30:38,420] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,420] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2023-10-27 13:30:38,420] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,420] {dag.py:2379} INFO - Sync 2 DAGs
+[2023-10-27 13:30:38,426] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,426] {dag.py:2398} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2023-10-27 13:30:38,427] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,427] {dag.py:2398} INFO - Creating ORM DAG for example_xcom_args
+[2023-10-27 13:30:38,434] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,434] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-10-27 13:30:38,434] {logging_mixin.py:115} INFO - [2023-10-27 13:30:38,434] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-10-27 13:30:38,446] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.150 seconds

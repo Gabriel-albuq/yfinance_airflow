@@ -1,0 +1,11 @@
+[2023-10-27 13:30:43,670] {processor.py:153} INFO - Started process (PID=10607) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-10-27 13:30:43,671] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2023-10-27 13:30:43,671] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,671] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-10-27 13:30:43,689] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-10-27 13:30:43,748] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,748] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_passing_params_via_test_command
+[2023-10-27 13:30:43,757] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,757] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_passing_params_via_test_command
+[2023-10-27 13:30:43,763] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,763] {manager.py:508} INFO - Created Permission View: can read on DAG:example_passing_params_via_test_command
+[2023-10-27 13:30:43,763] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,763] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:43,769] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,769] {dag.py:2398} INFO - Creating ORM DAG for example_passing_params_via_test_command
+[2023-10-27 13:30:43,781] {logging_mixin.py:115} INFO - [2023-10-27 13:30:43,781] {dag.py:2927} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2023-10-27T16:29:00+00:00, run_after=2023-10-27T16:30:00+00:00
+[2023-10-27 13:30:43,795] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.128 seconds

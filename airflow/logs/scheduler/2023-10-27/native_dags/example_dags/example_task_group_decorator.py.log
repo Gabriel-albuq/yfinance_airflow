@@ -1,0 +1,11 @@
+[2023-10-27 13:30:35,824] {processor.py:153} INFO - Started process (PID=10536) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-10-27 13:30:35,825] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-10-27 13:30:35,825] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,825] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-10-27 13:30:35,847] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-10-27 13:30:35,908] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,908] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2023-10-27 13:30:35,916] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,915] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2023-10-27 13:30:35,922] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,922] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2023-10-27 13:30:35,922] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,922] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:35,928] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,928] {dag.py:2398} INFO - Creating ORM DAG for example_task_group_decorator
+[2023-10-27 13:30:35,936] {logging_mixin.py:115} INFO - [2023-10-27 13:30:35,936] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2023-10-26T16:30:35.936002+00:00, run_after=2023-10-27T16:30:35.936002+00:00
+[2023-10-27 13:30:35,949] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.128 seconds

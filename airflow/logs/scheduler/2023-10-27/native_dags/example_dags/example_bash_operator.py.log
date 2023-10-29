@@ -1,0 +1,11 @@
+[2023-10-27 13:30:50,996] {processor.py:153} INFO - Started process (PID=10664) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-10-27 13:30:50,996] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-10-27 13:30:50,997] {logging_mixin.py:115} INFO - [2023-10-27 13:30:50,997] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-10-27 13:30:51,008] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-10-27 13:30:51,067] {logging_mixin.py:115} INFO - [2023-10-27 13:30:51,067] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2023-10-27 13:30:51,074] {logging_mixin.py:115} INFO - [2023-10-27 13:30:51,074] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2023-10-27 13:30:51,079] {logging_mixin.py:115} INFO - [2023-10-27 13:30:51,079] {manager.py:508} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2023-10-27 13:30:51,080] {logging_mixin.py:115} INFO - [2023-10-27 13:30:51,080] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:51,086] {logging_mixin.py:115} INFO - [2023-10-27 13:30:51,086] {dag.py:2398} INFO - Creating ORM DAG for example_bash_operator
+[2023-10-27 13:30:51,094] {logging_mixin.py:115} INFO - [2023-10-27 13:30:51,094] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-10-26T00:00:00+00:00, run_after=2023-10-27T00:00:00+00:00
+[2023-10-27 13:30:51,106] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.113 seconds

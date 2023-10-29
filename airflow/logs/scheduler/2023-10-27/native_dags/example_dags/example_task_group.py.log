@@ -1,0 +1,11 @@
+[2023-10-27 13:30:42,440] {processor.py:153} INFO - Started process (PID=10586) to work on /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-27 13:30:42,440] {processor.py:641} INFO - Processing file /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-10-27 13:30:42,441] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,441] {dagbag.py:507} INFO - Filling up the DagBag from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-27 13:30:42,448] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-10-27 13:30:42,502] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,502] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2023-10-27 13:30:42,512] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,512] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2023-10-27 13:30:42,518] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,518] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2023-10-27 13:30:42,519] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,518] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-10-27 13:30:42,525] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,525] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2023-10-27 13:30:42,532] {logging_mixin.py:115} INFO - [2023-10-27 13:30:42,532] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-10-26T16:30:42.532494+00:00, run_after=2023-10-27T16:30:42.532494+00:00
+[2023-10-27 13:30:42,546] {processor.py:161} INFO - Processing /home/gabriel/Documents/project_finance/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
